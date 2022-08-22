@@ -19,6 +19,18 @@ body {
 header {
     padding-bottom: 25%;
     color: white;
+    
+}
+
+.top-header {
+    position: fixed;
+    max-height: 110px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(230, 229, 229);
+    margin-bottom: 150px;
+    z-index: 1;
 }
 
 .top-image {
@@ -315,12 +327,9 @@ video {
     padding-bottom: 10%;
 }
 
-.main-section9 {
-    width: 100%;
-}
 
-.tert-content button{
-    position: relative;
+.contentButton {
+    padding-top: 5%;
 }
 
 
