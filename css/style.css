@@ -30,7 +30,7 @@ header {
     width: 100%;
     background-color: rgb(230, 229, 229);
     margin-bottom: 150px;
-    z-index: 1;
+    z-index: 4;
 }
 
 .top-image {
@@ -172,6 +172,7 @@ header {
 .main-transition1 {
     padding-top: 50px;
     padding-bottom: 50px;
+    color: black;
 }
 
 .transition1-p1 {
@@ -327,9 +328,23 @@ video {
     padding-bottom: 10%;
 }
 
+.content-button {
+    padding-top: 30%;
+}
 
-.contentButton {
-    padding-top: 5%;
+.h2 {
+    color: black;
+    font-size: 25px;
+    letter-spacing: .5px;
+    font-weight: 800;
+}
+
+.main-section10 img:hover {
+    opacity: .8;
+    background-color: black;
+    /* transition: all ease-in black .8s; */
+    width: 100%;
+    /* border: black solid 2px; */
 }
 
 
