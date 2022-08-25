@@ -352,3 +352,20 @@ video {
 }
 
 /* END main */
+
+/* FOOTER */
+
+.footer-ul, .footer-ul-two {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-ul a, .footer-ul-two a {
+    text-decoration: none;
+    font-size: 14px;
+    color:black;    
+}
+
+.footer-ul-two li {
+    padding-right: 3%;
+}
